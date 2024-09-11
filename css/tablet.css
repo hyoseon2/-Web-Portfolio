@@ -1,0 +1,138 @@
+@media (min-width: 600px){
+
+    img.pc{display: none;}
+    img.m{display: none;}
+    img.tab{display: block;}
+
+    .section2 .stacks ul li img{
+        width: 100px !important;
+    }
+
+    .section3 .projects .costco .text .left{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .section3 .projects .costco .text .right{
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .section3 .projects .costco .text .right p{
+        width: 240px;
+        height: 24px;
+        text-align: center;
+        background-color: rgba(0,0,0,0.2);
+        font-size: 14px;
+        border: 1px solid #7a7a7a;
+        border-radius: 6px;
+    }
+
+    .section3 .projects .ohora .text .left{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .section3 .projects .ohora .text .right{
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .section3 .projects .ohora .text .right p{
+        width: 240px;
+        height: 24px;
+        text-align: center;
+        background-color: rgba(0,0,0,0.2);
+        font-size: 14px;
+        border: 1px solid #7a7a7a;
+        border-radius: 6px;
+    }
+
+    .section5 .get_in_touch ul li img{
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    .section5 .get_in_touch ul li .text{
+        width: 30%;
+    }
+
+    .section5 .get_in_touch ul li .text h5{
+        font-size: 18px;
+        margin-top: 28px;
+    }
+    
+    .section5 .get_in_touch ul li .text p{
+        color: #ffffff;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 6px;
+    }
+
+}
+
+@media (min-width: 700px){
+
+    header .mid .tit p{
+        font-size: 60px;
+    }
+
+    header .mid .tit p span:first-child{
+        font-size: 70px;
+    }
+
+    header .mid .tit p span:nth-child(2){
+        font-size: 65px;
+    }
+
+    .section2 .stacks ul{
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+
+    .section2 .stacks ul li img.m{
+        display: block;
+        width: 80px !important;
+    }
+
+    .section4 p{
+        font-size: 24px;
+    }
+
+}
+
+@media (min-width: 750px){
+
+    .section3 .projects .costco .text .left h5{
+        display: block;
+        font-size: 14px;
+        margin-top: 12px;
+    }
+    
+    .section3 .projects .costco .text .left h6{
+        display: block;
+        font-size: 14px;
+        margin-top: 20px;
+        font-weight: lighter;
+    }
+
+    .section3 .projects .ohora .text .left h5{
+        display: block;
+        font-size: 14px;
+        margin-top: 12px;
+    }
+    
+    .section3 .projects .ohora .text .left h6{
+        display: block;
+        font-size: 14px;
+        margin-top: 20px;
+        font-weight: lighter;
+    }
+
+}
