@@ -35,15 +35,15 @@ $(document).ready(function() {
     });
 
     $(".bottom .menu3").click(function() {
-        $("html, body").animate({scrollTop:1850},450);
+        $("html, body").animate({scrollTop:2100},450);
     });
 
     $(".bottom .menu4").click(function() {
-        $("html, body").animate({scrollTop:2400},450);
+        $("html, body").animate({scrollTop:2900},450);
     });
 
     $(".bottom .menu5").click(function() {
-        $("html, body").animate({scrollTop:3000},450);
+        $("html, body").animate({scrollTop:3500},450);
     });
 
 
@@ -61,17 +61,17 @@ $(document).ready(function() {
 
     $("nav .menu3").click(function() {
         $("nav").css("top", "-100%");
-        $("html, body").animate({scrollTop:1850},450);
+        $("html, body").animate({scrollTop:2100},450);
     });
 
     $("nav .menu4").click(function() {
         $("nav").css("top", "-100%");
-        $("html, body").animate({scrollTop:2400},450);
+        $("html, body").animate({scrollTop:2900},450);
     });
 
     $("nav .menu5").click(function() {
         $("nav").css("top", "-100%");
-        $("html, body").animate({scrollTop:3000},450);
+        $("html, body").animate({scrollTop:3500},450);
     });
 
     // SECTION5 GET_IN_TOUCH 각 아이콘 MOUSEOVER & MOUSELEAVE 시 아이콘 색상 변경

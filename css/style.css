@@ -220,6 +220,42 @@ header nav ul li a:hover{
     font-size: 20px;
 }
 
+.animated-title{
+    font-size: 80px;
+    text-wrap: nowrap;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+    margin-top: 32px;
+}
+
+.animated-title .track{
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+.animated-title span{
+    margin-right: 12px;
+}
+
+.animated-title span:nth-child(2n){
+    font-size: 60px;
+    font-family: "Gowun Dodum", sans-serif !important;
+}
+
+.animated-title span:nth-child(2n-1){
+    font-family: "Poor Story", system-ui !important;
+}
+
 .section2{
     padding: 0 10px;
 }
@@ -351,7 +387,7 @@ header nav ul li a:hover{
     bottom: 10px;
 }
 
-.section3 .projects .costco .text .right p{
+.section3 .projects .costco .text .right a{
     width: 200px;
     height: 20px;
     text-align: center;
@@ -359,6 +395,10 @@ header nav ul li a:hover{
     font-size: 12px;
     border: 1px solid #7a7a7a;
     border-radius: 6px;
+}
+
+.section3 .projects .costco .text .right a:hover{
+    font-weight: bold;
 }
 
 .section3 .projects .ohora{
@@ -431,7 +471,7 @@ header nav ul li a:hover{
     bottom: 10px;
 }
 
-.section3 .projects .ohora .text .right p{
+.section3 .projects .ohora .text .right a{
     width: 200px;
     height: 20px;
     text-align: center;
@@ -439,6 +479,10 @@ header nav ul li a:hover{
     font-size: 12px;
     border: 1px solid #7a7a7a;
     border-radius: 6px;
+}
+
+.section3 .projects .ohora .text .right a:hover{
+    font-weight: bold;
 }
 
 .section4{
@@ -490,7 +534,8 @@ header nav ul li a:hover{
 }
 
 .section5 .get_in_touch ul li{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .section5 .get_in_touch ul li img{
@@ -499,7 +544,6 @@ header nav ul li a:hover{
 }
 
 .section5 .get_in_touch ul li .text{
-    width: 60%;
     margin: 0 auto;
 }
 
